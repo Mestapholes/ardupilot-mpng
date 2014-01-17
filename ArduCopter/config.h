@@ -89,7 +89,7 @@
  	#define LOGGING_ENABLED DISABLED
  #endif
 
- # define PIEZO_PIN AN3
+ # define PIEZO_PIN AN7
  
  #if MPNG_BOARD_TYPE == HK_RED_MULTIWII_PRO || MPNG_BOARD_TYPE == BLACK_VORTEX
 	 # define CONFIG_IMU_TYPE   CONFIG_IMU_ITG3200
@@ -284,9 +284,9 @@
  #define COPTER_LED_7 AN14      // Motor LED
  #define COPTER_LED_8 AN15      // Motor LED
 #elif CONFIG_HAL_BOARD == HAL_BOARD_MPNG
- #define COPTER_LED_1 AN4         // Motor or Aux LED
- #define COPTER_LED_2 AN5         // Motor LED
- #define COPTER_LED_3 AN6         // Motor or GPS LED
+ #define COPTER_LED_1 AN3         // Motor or Aux LED
+ #define COPTER_LED_2 AN4         // Motor LED
+ #define COPTER_LED_3 AN5         // Motor or GPS LED
  #define COPTER_LED_4 AN7         // Motor LED
  #define COPTER_LED_5 -1         // Motor LED
  #define COPTER_LED_6 -1         // Motor LED
